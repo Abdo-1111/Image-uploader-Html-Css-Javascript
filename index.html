@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Uploader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="app">
+            <h1>Image Uploader <img src="assets/upload.png" alt="upload"></h1>
+            <div class="upload">
+                <input type="file"  placeholder="image name">
+                <button class="upload-now" onclick="convertToImage()" >upload-now</button>
+            </div>
+            <h3>uploaded images</h3>
+            <div class="uploaded-images" id="output">
+                <div class="image" id="image"><img src="assets/upload.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
